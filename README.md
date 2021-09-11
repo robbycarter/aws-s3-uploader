@@ -89,6 +89,7 @@ See the [open issues](https://github.com/robbycarter/aws-s3-uploader/issues) for
 * abort multipart upload on failure
 * test code
 * auto clean up handing multipart uploads
+* improve error handling
 
 <br />
 <br />
