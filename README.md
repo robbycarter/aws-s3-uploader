@@ -4,7 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![GitHub](https://img.shields.io/github/license/robbycarter/aws-s3-uploader?style=for-the-badge)
+[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <br />
 
@@ -144,8 +144,8 @@ Project Link: [https://github.com/robbycarter/aws-s3-uploader](https://github.co
 [issues-shield]: https://img.shields.io/github/issues/robbycarter/aws-s3-uploader.svg?style=for-the-badge
 [issues-url]: https://github.com/robbycarter/aws-s3-uploader/issues
 
-[license-shield]: https://img.shields.io/github/license/robbycarter/aws-s3-uploader.svg?style=for-the-badge
-[license-url]: https://opensource.org/licenses/MPL-2.0
+[license-shield]: https://img.shields.io/github/license/robbycarter/aws-s3-uploader?style=for-the-badge
+[license-url]: https://github.com/robbycarter/aws-s3-uploader/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/robert-quainoo-076704b8/
