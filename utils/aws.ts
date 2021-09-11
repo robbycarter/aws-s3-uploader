@@ -7,7 +7,8 @@ const credentials = {
 
 AWS.config.update({
   credentials: credentials,
-  region: process.env.NEXT_PUBLIC_S3_REGION
+  region: process.env.NEXT_PUBLIC_S3_REGION,
+  signatureVersion: 'v4'
 });
 
 const s3 = new AWS.S3();
