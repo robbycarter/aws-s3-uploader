@@ -4,10 +4,11 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+![GitHub](https://img.shields.io/github/license/robbycarter/aws-s3-uploader?style=for-the-badge)
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 <br />
+
+
 
 ## Multipart + Presigned URL upload to AWS S3 via the browser
 
@@ -144,7 +145,7 @@ Project Link: [https://github.com/robbycarter/aws-s3-uploader](https://github.co
 [issues-url]: https://github.com/robbycarter/aws-s3-uploader/issues
 
 [license-shield]: https://img.shields.io/github/license/robbycarter/aws-s3-uploader.svg?style=for-the-badge
-[license-url]: https://github.com/robbycarter/aws-s3-uploader/blob/master/LICENSE
+[license-url]: https://opensource.org/licenses/MPL-2.0
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/robert-quainoo-076704b8/
