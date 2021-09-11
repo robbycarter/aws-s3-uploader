@@ -17,7 +17,7 @@
 
   <p align="center">
     <br />
-    <a href="https://master.duatf6opp8rlh.amplifyapp.com/">View Demo</a>
+    <a href="https://aws-s3-uploader.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/robbycarter/aws-s3-uploader/issues">Report Bug</a>
     ·
