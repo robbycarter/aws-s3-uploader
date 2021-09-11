@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "2709abe9-8a7c-4a3d-aacd-e137ef652362",
+		"name": "S3- Uploader",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Multipart",
+			"item": [
+				{
+					"name": "Get Multipart Uploads",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/multipart/list-multiparts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"multipart",
+								"list-multiparts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Multipart Upload",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"key\": \"AWSCLIV2.msi\",\r\n    \"upload_id\": \"bwmsctO3ZWvj3At54ZzVRtLVkkQ5MyPpPmeVlqRchkPz9YeBTMa64Cqb4Pyn0LKyveqCtv0akkhVTNlKLDatm1pDgfbe3VByefLbIo7juT63A2M8PLJV.EumTW786F8r\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/multipart/about-multipart-upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"multipart",
+								"about-multipart-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Clean Up All Multipart Uploads",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"key\": \"AWSCLIV2.msi\",\r\n    \"upload_id\": \"bwmsctO3ZWvj3At54ZzVRtLVkkQ5MyPpPmeVlqRchkPz9YeBTMa64Cqb4Pyn0LKyveqCtv0akkhVTNlKLDatm1pDgfbe3VByefLbIo7juT63A2M8PLJV.EumTW786F8r\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/multipart/cleanup-multipart",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"multipart",
+								"cleanup-multipart"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Multipart Upload Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"file_name\": \"ZonalPricing.json\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/multipart/create-multipart-upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"multipart",
+								"create-multipart-upload"
+							],
+							"query": [
+								{
+									"key": "filename",
+									"value": "nedec",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Multipart Presigned Url",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"file_name\": \"ZonalPricing.json\",\r\n    \"upload_id\": \"FPQvadBiFQpnx0klH6xCMrlYAxCHUw3DnQ1KUnAHVeJjbW26eboURZ5AUC2kEdvQ1DB8Gznvev9lra7VAi_sbDaUGo3kqQUJos2tiS6Oh3YeMN8wnXHymvoVzNJqwwHX\",\r\n    \"part_number\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/multipart/create-presigned-urls",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"multipart",
+								"create-presigned-urls"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Complete Multipart Upload",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"file_name\": \"ZonalPricing.json\",\r\n    \"upload_id\": \"FPQvadBiFQpnx0klH6xCMrlYAxCHUw3DnQ1KUnAHVeJjbW26eboURZ5AUC2kEdvQ1DB8Gznvev9lra7VAi_sbDaUGo3kqQUJos2tiS6Oh3YeMN8wnXHymvoVzNJqwwHX\",\r\n    \"parts\": [\r\n        {\r\n            \"ETag\": \"500b17b5ab53437970945e6645ae1a82\",\r\n            \"PartNumber\": 1\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/multipart/complete-multipart-upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"multipart",
+								"complete-multipart-upload"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -16,7 +16,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/robbycarter/aws-s3-uploader">View Demo</a>
+    <a href="https://master.duatf6opp8rlh.amplifyapp.com/">View Demo</a>
     ·
     <a href="https://github.com/robbycarter/aws-s3-uploader/issues">Report Bug</a>
     ·
@@ -41,7 +41,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This repo demonstrates the use of multipart + presigned URLs to upload large files to an AWS S3-compliant storage service.
+This repo demonstrates the use of multipart + presigned URLs to upload large files to an AWS S3 storage service.
 
 <br />
 <br />
@@ -54,7 +54,10 @@ This repo demonstrates the use of multipart + presigned URLs to upload large fil
 
 <br />
 
-> Note: Set the S3-compliant bucket policy as appropriate to allow the right access
+> Note: Set the S3 bucket policy as appropriate to allow the right access
+<br />
+
+> Note: Set the S3 cors bucket policy as provided in the s3-cors-config.json
 
 <br />
 <br />
@@ -70,7 +73,7 @@ This repo demonstrates the use of multipart + presigned URLs to upload large fil
    
 3. Go to `http://localhost:3000` in your browser window and upload a file.
 
-
+> Note: Also included is a postman collection for the api routes for the backend
 
 
 <br />
