@@ -123,7 +123,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-RobbyCarter - [@Robby_Carter_](https://twitter.com/Robby_Carter_) - email@example.com
+RobbyCarter - [@Robby_Carter_](https://twitter.com/Robby_Carter_) - quainoo.robert@gmail.com
 
 Project Link: [https://github.com/robbycarter/aws-s3-uploader](https://github.com/robbycarter/aws-s3-uploader)
 
