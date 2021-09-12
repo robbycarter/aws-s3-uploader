@@ -23,7 +23,7 @@ const getMultiPartUpload = async (req: NextApiRequest, res: NextApiResponse) => 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   if (req.method === "POST") {
-    // POST - create multipart upload request  
+    // POST - create multipart upload request
     getMultiPartUpload(req, res);
   }  else {
     res.send("Unknown")
