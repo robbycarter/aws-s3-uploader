@@ -1,4 +1,4 @@
-import AWS from 'aws-sdk' 
+import AWS from 'aws-sdk'
 
 const credentials = {
   accessKeyId: process.env.NEXT_PUBLIC_S3_ACCESS_KEY || '',
@@ -58,8 +58,8 @@ export const generatePresignedGetUrl = (params :any) => {
 
 /**
  * Function to generate multipart upload id
- * @param params 
- * @returns 
+ * @param params
+ * @returns
  */
 export const generateMultipartUpload = (params: any) => {
   return new Promise(async(resolve,reject) => {

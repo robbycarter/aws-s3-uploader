@@ -22,7 +22,7 @@ const abortMultiPartList = async (req: NextApiRequest, res: NextApiResponse) => 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   if (req.method === "DELETE") {
-    // POST - create multipart upload request  
+    // POST - create multipart upload request
     abortMultiPartList(req, res);
   }  else {
     res.send("Unknown")

@@ -150,7 +150,7 @@ const Home: NextPage = () => {
       let start, end, blob
       let uploadPartsArray: { ETag: any; PartNumber: number; }[] = []
 
-      // Build chunks data 
+      // Build chunks data
       for (let index = 1; index < NUM_CHUNKS + 1; index++) {
         start = (index - 1) * FILE_CHUNK_SIZE
         end = (index) * FILE_CHUNK_SIZE
